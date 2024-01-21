@@ -1,0 +1,15 @@
+{
+  "name": "com.tityx.formulas",
+  "version": "1.0.0",
+  "displayName": "Formulas",
+  "description": "Formulas system. Supports c# class and unity scriptable object",
+  "unity": "2022.3",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "author": {
+    "name": "Tityx",
+    "email": "syhodyb99@gmail.com",
+    "url": "https://github.com/Tityxx"
+  }
+}
