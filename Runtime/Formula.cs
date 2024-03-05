@@ -69,9 +69,13 @@ namespace Tityx.FormulasSystem
             }
 
             formattedFormula = string.Format(formattedFormula, strValues);
-
-            if (!ExpressionEvaluator.Evaluate(formattedFormula, out result))
+#if UNITY_2022_3_OR_NEWER
+            if (!ExpressionEvaluator.Evaluate(formattedFormula, out  result))
                 return false;
+#else
+            if (!float.TryParse(new System.Data.DataTable().Compute(formattedFormula, "").ToString(), out result))
+                return false;
+#endif
 
             if (_useMin && result.CompareTo(_min) < 0)
                     result = _min;
