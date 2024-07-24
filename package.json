@@ -1,6 +1,6 @@
 {
   "name": "com.tityx.formulas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Formulas",
   "description": "Formulas system. Supports c# class and unity scriptable object",
   "unity": "2021.1",
