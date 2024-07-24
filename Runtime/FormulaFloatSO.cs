@@ -2,6 +2,6 @@
 
 namespace Tityx.FormulasSystem
 {
-    [CreateAssetMenu(menuName = "ToolsAndMechanics/Formula/Float")]
+    [CreateAssetMenu(menuName = "Tityx/Formula System/Float")]
     public class FormulaFloatSO : FormulaSO<float> { }
 }

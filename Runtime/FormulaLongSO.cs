@@ -2,6 +2,6 @@
 
 namespace Tityx.FormulasSystem
 {
-    [CreateAssetMenu(menuName = "ToolsAndMechanics/Formula/Long")]
+    [CreateAssetMenu(menuName = "Tityx/Formula System/Long")]
     public class FormulaLongSO : FormulaSO<long> { }
 }

@@ -2,6 +2,6 @@ using UnityEngine;
 
 namespace Tityx.FormulasSystem
 {
-    [CreateAssetMenu(menuName = "ToolsAndMechanics/Formula/Int")]
+    [CreateAssetMenu(menuName = "Tityx/Formula System/Int")]
     public class FormulaIntSO : FormulaSO<int> { }
 }
